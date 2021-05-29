@@ -1,6 +1,3 @@
-// 13193920
-// jahazi01@student.bbk.ac.uk
-
 import java.io.*;
 import java.util.*;
 
