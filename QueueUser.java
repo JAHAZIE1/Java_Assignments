@@ -1,20 +1,3 @@
-// 13193920
-// jahazi01@student.bbk.ac.uk
-
-// Response to Q1:
-// This update will continue to allow the program to be completed.
-// The total number of pop is still below the total number of push.
-
-// Response to Q2:
-// This will update will stop the program from being completed.
-// Once all the 16 pushs are completed and the ArrayList is empty
-// the pop will be stuck on wait() and never finish. Unless all the pops can finish before the pushs
-// are completed which is unlikely as the pop is more then the total pushes.
-
-// Response to Q3:
-// The program will be stuck. If an empty arraylist passes through pop that thread will wait.
-// Without the notifyall() in the push there is nothing to update pop to stop waiting.
-
 class Pusher implements Runnable
 {
     BoundedQueue answerlist;
