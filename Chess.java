@@ -1,7 +1,3 @@
-// 13193920
-// jahazi01@student.bbk.ac.uk
-
-
 import java.io.*;
 import java.util.*;
 import java.lang.Math.*;
@@ -148,10 +144,10 @@ public class Chess {
 
 		// sample use of the classes
 //
-//		ChessPiece a = new King(0,0); //red
-//		ChessPiece b = new Queen(1,1);//green
-//		ChessPiece c = new Rook(2,1);//orange
-//		ChessPiece d = new Bishop(4,4);//yellow
+//		ChessPiece a = new King(0,0);
+//		ChessPiece b = new Queen(1,1);
+//		ChessPiece c = new Rook(2,1);
+//		ChessPiece d = new Bishop(4,4);
 //
 //		System.out.println( a.canAttack(b));//true
 //		System.out.println( a.canAttack(c));//false
