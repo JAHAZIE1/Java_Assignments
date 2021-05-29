@@ -147,7 +147,7 @@ public class CustomStringSort {
         fruits.add("bananas");
 
         System.out.println( fruits );
-        sortStringsLonger( fruits ); // removed longer
+        sortStringsLonger( fruits ); 
         System.out.println( fruits );
         
         sortStringsNumAs( fruits );
